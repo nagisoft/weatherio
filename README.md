@@ -20,13 +20,12 @@ Features Done :
 Todo :
 
 - [ ] 5 day Forecast
-- [ ] ...
+- [ ] cleanup
 
 ## Built With
 
 - React
-- React Bootstrap
-- Features Prop Drilling, useEffect, useState and Context, localStorage
+- API calls
 
 ## Author
 
