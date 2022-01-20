@@ -9,7 +9,8 @@ export default function SearchMain() {
    
     const getWeatherInfo = async ()=>{
         try{
-            let url = `http://api.openweathermap.org/data/2.5/weather?q=${searchTerm}&units=metric&appid=64968eb65f1823ec7f3abe18fce5573b`;
+            let k = process.env.REACT_APP_WEATHER_API_KEY;
+            let url = `http://api.openweathermap.org/data/2.5/weather?q=${searchTerm}&units=metric&appid=${k}`;
             let res = await fetch(url);
             let data = await res.json();
 
