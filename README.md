@@ -2,7 +2,7 @@
 
 Weatherio is a Weather Forecast App that shows the current date (Temperature, Wind Speed, Humidity and Sunset Time) for each city built using React. 
 
-- [Demo Website Budgetio](https://budgetio.netlify.app/)
+- [Demo Website Weatherio](weatherrio.netlify.app)
 
 ## FEATURES
 
